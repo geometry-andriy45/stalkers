@@ -1,0 +1,26 @@
+header {
+    background-color: #5A8613;
+    display: flex;
+    align-items: flex-start;
+}
+body {
+    background: #17280B;
+}
+.a {
+    width: 200px;
+    height: 300px;
+}
+.b {
+    width: 300px;
+    height: 150px;
+    
+}
+.ab {
+    width: 200px;
+    height: 300px;
+}
+.ba {
+    width: 300px;
+    height: 150px;
+    float: right;
+}
