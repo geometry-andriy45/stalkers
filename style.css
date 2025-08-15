@@ -128,7 +128,6 @@ a {
     width: 500px;
     height: 300px;
     display: block;
-    float: right;
     transition: 0.5s;
 }
 .stalker_map:hover {
@@ -138,9 +137,12 @@ a {
     width: 300px;
     height: 500px;
     display: block;
-    float: right;
     transition: 0.5s;
 }
 .stalkercs_map:hover {
     transform: scale(2);
+}
+.game_info_and_map {
+    display: flex;
+    justify-content: space-around;
 }
