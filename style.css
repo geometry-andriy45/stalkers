@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 header {
     background-color: #5A8613;
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
 }
 body {
     background: #17280B;
+    font-family: "Oswald", sans-serif;;
+    margin: 0;
+    text-shadow: 0px 0px 5px black;
 }
 .a {
     width: 200px;
@@ -15,12 +20,127 @@ body {
     height: 150px;
     
 }
-.ab {
-    width: 200px;
-    height: 300px;
+.hi {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
-.ba {
+.hc {
+    width: 100%;
+}
+.h {
+    text-align: center;
+    font-size: 50px;
+}
+.href {
+    background-color: gray;
+    display: block;
     width: 300px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color:gold
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.short_message {
+    font-size: 50px;
+    text-align: center;
+    color: gold;
+}
+.href:hover {
+    transform:translateY(-5px);
+    box-shadow: 0px 10px 10px 0px black;
+}
+.ba {
+    width: 600px;
+    height: 300px;
+}
+.game_info {
+    display: flex;
+    width: 700px;
+    font-size: 20px;
+    color: gold;
+    text-align: center;
+    display: block;
+}
+.link_to_steam {
+    background-color: gray;
+    display: block;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
     float: right;
+    transition: 0.5s;
+}
+.link_text {
+    font-size: 35px;
+    text-align: center;
+    color: gold;
+}
+.link_to_main_page {
+    
+    background-color: gray;
+    display: block;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+    float: right;
+    transition: 0.5s;
+}
+.main_link_text {
+    font-size: 30px;
+    text-align: center;
+    color: gold;
+}
+.steam_img {
+    width: 100px;
+}
+.link_to_main_page:hover {
+    transform:translateY(-5px);
+    box-shadow: 0px 10px 10px 0px black;
+}
+.link_to_steam:hover {
+    transform:translateY(-5px);
+    box-shadow: 0px 10px 10px 0px black;
+}
+.stalker_map {
+    width: 500px;
+    height: 300px;
+    display: block;
+    float: right;
+    transition: 0.5s;
+}
+.stalker_map:hover {
+    transform: scale(2);
+}
+.stalkercs_map {
+    width: 300px;
+    height: 500px;
+    display: block;
+    float: right;
+    transition: 0.5s;
+}
+.stalkercs_map:hover {
+    transform: scale(2);
 }
