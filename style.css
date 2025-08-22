@@ -136,11 +136,13 @@ a {
     transition: 0.5s;
 }
 .stalkercs_map:hover {
-    transform: scale(2) translateX(-200px);
+    transform: scale(2) translateX(-200px) translateY(-50px);
 }
 .game_info_and_map {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-bottom: 60px;
 }
 footer {
     background-color: black;
@@ -194,4 +196,7 @@ footer {
 .mci_img {
     width: 400px;
     height: 200px;
+}
+a {
+    color: gold;
 }
