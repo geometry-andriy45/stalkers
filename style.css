@@ -10,6 +10,7 @@ body {
     font-family: "Oswald", sans-serif;;
     margin: 0;
     text-shadow: 0px 0px 5px black;
+    color: gold;
 }
 .a {
     width: 200px;
@@ -47,7 +48,6 @@ body {
 a {
     font-size: 40px;
     text-decoration: none;
-    color:gold
 }
 .buttons {
     display: flex;
@@ -56,7 +56,6 @@ a {
 .short_message {
     font-size: 50px;
     text-align: center;
-    color: gold;
 }
 .href:hover {
     transform:translateY(-5px);
@@ -68,9 +67,8 @@ a {
 }
 .game_info {
     display: flex;
-    width: 700px;
+    width: 600px;
     font-size: 20px;
-    color: gold;
     text-align: center;
     display: block;
 }
@@ -78,7 +76,7 @@ a {
     background-color: gray;
     display: block;
     width: 300px;
-    height: 150px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,16 +87,14 @@ a {
     transition: 0.5s;
 }
 .link_text {
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
-    color: gold;
 }
 .link_to_main_page {
-    
     background-color: gray;
     display: block;
     width: 300px;
-    height: 150px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,15 +102,15 @@ a {
     border-radius: 20px;
     transition: 0.5s;
     float: right;
+    display: flex;
     transition: 0.5s;
 }
 .main_link_text {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    color: gold;
 }
 .steam_img {
-    width: 100px;
+    width: 60px;
 }
 .link_to_main_page:hover {
     transform:translateY(-5px);
@@ -131,7 +127,7 @@ a {
     transition: 0.5s;
 }
 .stalker_map:hover {
-    transform: scale(2);
+    transform: scale(2) translateX(-200px);
 }
 .stalkercs_map {
     width: 300px;
@@ -140,9 +136,62 @@ a {
     transition: 0.5s;
 }
 .stalkercs_map:hover {
-    transform: scale(2);
+    transform: scale(2) translateX(-200px);
 }
 .game_info_and_map {
     display: flex;
     justify-content: space-around;
+}
+footer {
+    background-color: black;
+}
+.main_character_info {
+    text-align: center;
+    font-size: 30px;
+}
+.mci {
+    text-align: center;
+    padding: 20px;
+}
+.link_to_main_character {
+    background-color: gray;
+    display: block;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+    float: right;
+    display: flex;
+    transition: 0.5s;
+}
+.link_to_main_character:hover {
+    transform:translateY(-5px);
+    box-shadow: 0px 10px 10px 0px black;
+}
+.link_to_back {
+    background-color: gray;
+    display: block;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+    float: right;
+    display: flex;
+    transition: 0.5s;
+}
+.link_to_back:hover {
+    transform:translateY(-5px);
+    box-shadow: 0px 10px 10px 0px black;
+}
+.mci_img {
+    width: 400px;
+    height: 200px;
 }
